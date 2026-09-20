@@ -1,0 +1,20 @@
+# Hướng dẫn chi tiết kỳ thi Đánh giá năng lực HSA của ĐHQGHN năm 2025
+
+**Source:** https://tuyensinh.vnu.edu.vn/tin-tuc/huong-dan-dang-ky-ky-thi-hsa-2025
+
+**Crawled:** 2026-09-20T15:43:17.433173
+
+---
+
+# Hướng dẫn chi tiết kỳ thi Đánh giá năng lực HSA của ĐHQGHN năm 2025
+
+Kỳ thi Đánh giá năng lực học sinh trung học phổ thông (HSA) năm 2025 của Đại học Quốc gia Hà Nội dự kiến tổ chức 6 đợt thi từ tháng 3 đến tháng 6 năm 2025 tại Hà Nội, Thái Nguyên, Hải Phòng, Nam Định, Hưng Yên, Hải Dương, Ninh Bình, Thái Bình, Thanh Hóa, Nghệ An, Hà Tĩnh.
+
+### Cấu trúc bài thi HSA 2025:
+- **Thời gian thi:** 195 phút làm bài trên máy tính.
+- **Tổng số câu hỏi:** 150 câu trắc nghiệm khách quan và điền đáp án ngắn.
+- **Phần 1: Tư duy định lượng (Toán học):** 50 câu hỏi, thời gian 75 phút. Đánh giá năng lực vận dụng kiến thức toán học giải quyết vấn đề thực tiễn.
+- **Phần 2: Tư duy định tính (Văn học - Ngôn ngữ):** 50 câu hỏi, thời gian 60 phút. Đánh giá năng lực cảm thụ, phân tích ngôn ngữ, suy luận văn bản tiếng Việt.
+- **Phần 3: Khoa học (Khoa học Tự nhiên hoặc Khoa học Xã hội):** 50 câu hỏi, thời gian 60 phút. Thí sinh chọn làm phần thi KHTN (Vật lý, Hóa học, Sinh học) hoặc KHXH (Lịch sử, Địa lý, Giáo dục công dân).
+
+Thí sinh được đăng ký tối đa 2 đợt thi trong năm, mỗi đợt cách nhau tối thiểu 28 ngày. Kết quả thi HSA được hơn 90 trường đại học trên cả nước sử dụng để xét tuyển đầu vào.

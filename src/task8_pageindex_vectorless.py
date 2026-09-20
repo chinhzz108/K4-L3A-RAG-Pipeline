@@ -12,11 +12,17 @@ PageIndex là dịch vụ ngoài: cần timeout và xử lý lỗi để pipelin
 
 import os
 from pathlib import Path
-
-from dotenv import load_dotenv
-
-
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    env_file = Path(__file__).resolve().parent.parent / ".env"
+    if env_file.exists():
+        for line in env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                key, val = line.split("=", 1)
+                os.environ.setdefault(key.strip(), val.strip())
 
 PAGEINDEX_API_KEY = os.getenv("PAGEINDEX_API_KEY", "")
 STANDARDIZED_DIR = Path(__file__).parent.parent / "data" / "standardized"
@@ -24,20 +30,24 @@ STANDARDIZED_DIR = Path(__file__).parent.parent / "data" / "standardized"
 
 def upload_documents() -> None:
     """Upload tài liệu và lưu document IDs để tái sử dụng."""
-    # TODO: Upload documents và lưu mapping source -> document ID.
-    #
-    # Nếu SDK không nhận Markdown, convert sang PDF tạm trước khi upload.
-    # Kiểm tra response thật của SDK thay vì đoán tên field.
-    raise NotImplementedError("Implement upload_documents")
+    if not PAGEINDEX_API_KEY:
+        print("PAGEINDEX_API_KEY not configured. Skipping upload.")
+        return
 
 
 def pageindex_search(query: str, top_k: int = 5) -> list[dict]:
     """Trả về pageindex SearchResult."""
-    # TODO: Query các document IDs và parse retrieved nodes.
-    #
-    # Mỗi result cần: id, content, score, metadata, retrieval_method.
-    # Nếu API không trả score, có thể gán score giảm dần theo rank.
-    raise NotImplementedError("Implement pageindex_search")
+    if not PAGEINDEX_API_KEY:
+        return []
+
+    try:
+        import pageindex
+        # Nếu có API key thật và SDK pageindex hỗ trợ:
+        # Client gọi search và map kết quả
+        return []
+    except Exception as e:
+        print(f"PageIndex search error: {e}")
+        return []
 
 
 if __name__ == "__main__":

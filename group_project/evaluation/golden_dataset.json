@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Quy định về điểm ưu tiên theo khu vực và đối tượng theo Thông tư 08/2022/TT-BGDĐT như thế nào?",
+    "expected_answer": "Theo Thông tư 08/2022/TT-BGDĐT, nhóm ưu tiên 1 (UT1) gồm các đối tượng 01-04 được cộng 2.0 điểm, nhóm ưu tiên 2 (UT2) gồm đối tượng 05-07 được cộng 1.0 điểm. Về khu vực: Khu vực 1 (KV1) được cộng 0.75 điểm, Khu vực 2 nông thôn (KV2-NT) cộng 0.5 điểm, Khu vực 2 (KV2) cộng 0.25 điểm, Khu vực 3 (KV3) không được cộng điểm ưu tiên.",
+    "expected_context": "1. Uu tien theo doi tuong: Nhom uu tien 1 (UT1) gom cac doi tuong 01, 02, 03, 04 duoc cong 2.0 diem. Nhom uu tien 2 (UT2) gom cac doi tuong 05, 06, 07 duoc cong 1.0 diem.\n2. Uu tien theo khu vuc: Khu vuc 1 (KV1) cong 0.75 diem; Khu vuc 2 nong thon (KV2-NT) cong 0.5 diem; Khu vuc 2 (KV2) cong 0.25 diem; Khu vuc 3 (KV3) khong duoc tinh diem uu tien."
+  },
+  {
+    "question": "Từ năm 2023, công thức tính điểm ưu tiên đối với thí sinh đạt từ 22.5 điểm trở lên được quy định như thế nào?",
+    "expected_answer": "Thí sinh đạt tổng điểm từ 22.5 trở lên (trên thang điểm 30) được xác định điểm ưu tiên giảm dần theo công thức: Điểm ưu tiên = [(30 - Tổng điểm đạt được) / 7.5] x Mức điểm ưu tiên quy định theo đối tượng và khu vực.",
+    "expected_context": "Thi sinh dat tong diem tu 22.5 tro len duoc xac dinh theo cong thuc: Diem uu tien = [(30 - Tong diem dat duoc) / 7.5] x Muc diem uu tien quy dinh tai Khoan 1 va Khoan 2 Dieu nay."
+  },
+  {
+    "question": "Thí sinh được đăng ký bao nhiêu nguyện vọng xét tuyển đại học?",
+    "expected_answer": "Thí sinh được đăng ký nguyện vọng vào nhiều ngành, nhiều trường và không bị giới hạn số lượng nguyện vọng, nhưng phải sắp xếp theo thứ tự ưu tiên từ cao xuống thấp (nguyện vọng 1 là ưu tiên cao nhất).",
+    "expected_context": "Thi sinh duoc dang ky nguyen vong vao nhieu nganh, nhieu truong khong gioi han so luong nguyen vong, nhung phai sap xep cac nguyen vong theo thu tu uu tien tu cao xuong thap"
+  },
+  {
+    "question": "Mỗi thí sinh có thể trúng tuyển vào bao nhiêu nguyện vọng trên hệ thống tuyển sinh của Bộ GD&ĐT?",
+    "expected_answer": "Mỗi thí sinh chỉ trúng tuyển vào 01 nguyện vọng cao nhất trong số các nguyện vọng đủ điều kiện trúng tuyển khi xử lý trên Hệ thống hỗ trợ tuyển sinh chung.",
+    "expected_context": "Tat ca cac nguyen vong xet tuyen dai hoc cua thi sinh duoc xu ly tren He thong ho tro tuyen sinh chung va moi thi sinh chi trung tuyen vao 01 nguyen vong cao nhat trong so cac nguyen vong du dieu kien trung tuyen."
+  },
+  {
+    "question": "Các phương thức xét tuyển chính của Đại học Bách khoa Hà Nội là gì và tỷ lệ chỉ tiêu tương ứng?",
+    "expected_answer": "Đại học Bách khoa Hà Nội có 3 phương thức chính: Phương thức 1 (Xét tuyển tài năng - XTTN) chiếm khoảng 20% chỉ tiêu; Phương thức 2 (Xét tuyển theo điểm thi Đánh giá tư duy - TSA) chiếm khoảng 30% chỉ tiêu; Phương thức 3 (Xét tuyển dựa trên điểm thi tốt nghiệp THPT) chiếm khoảng 50% chỉ tiêu.",
+    "expected_context": "Phuong thuc 1 (Xet tuyen tai nang - XTTN): Chiem khoang 20% tong chi tieu... Phuong thuc 2 (Xet tuyen theo diem thi Danh gia tu duy - TSA): Chiem khoang 30% tong chi tieu... Phuong thuc 3 (Xet tuyen dua tren diem thi tot nghiep THPT): Chiem khoang 50% tong chi tieu"
+  },
+  {
+    "question": "Kỳ thi Đánh giá tư duy (TSA) của Đại học Bách khoa Hà Nội gồm những phần thi nào và thời lượng bao nhiêu?",
+    "expected_answer": "Bài thi TSA gồm 3 phần thi: Tư duy Toán học (60 phút), Tư duy Đọc hiểu (30 phút), và Tư duy Khoa học / Giải quyết vấn đề (60 phút) theo hình thức trắc nghiệm trên máy tính.",
+    "expected_context": "Tu duy Toan hoc (60 phut), Tu duy Doc hieu (30 phut) va Tu duy Khoa hoc/Giai quyet van de (60 phut) theo hinh thuc trac nghiem tren may tinh."
+  },
+  {
+    "question": "Quy định quy đổi chứng chỉ tiếng Anh IELTS sang điểm môn Tiếng Anh tại Đại học Bách khoa Hà Nội như thế nào?",
+    "expected_answer": "HUST cho phép quy đổi điểm IELTS từ 5.0 trở lên: IELTS 5.0 quy đổi thành 8.0 điểm; IELTS 5.5 = 8.5; IELTS 6.0 = 9.0; IELTS 6.5 = 9.5; và IELTS từ 7.0 trở lên quy đổi thành 10.0 điểm.",
+    "expected_context": "IELTS 5.0 quy doi thanh 8.0 diem; IELTS 5.5 quy doi thanh 8.5 diem; IELTS 6.0 quy doi thanh 9.0 diem; IELTS 6.5 quy doi thanh 9.5 diem; IELTS 7.0 tro len quy doi thanh 10.0 diem."
+  },
+  {
+    "question": "Cấu trúc bài thi Đánh giá năng lực (HSA) của Đại học Quốc gia Hà Nội gồm bao nhiêu câu hỏi và thời gian làm bài bao lâu?",
+    "expected_answer": "Bài thi HSA của ĐHQGHN gồm 150 câu hỏi làm trong 195 phút trên máy tính, chia thành 3 phần: Tư duy định lượng (50 câu, 75 phút), Tư duy định tính (50 câu, 60 phút) và Khoa học Tự nhiên/Xã hội (50 câu, 60 phút).",
+    "expected_context": "Bai thi gom 150 cau hoi lam trong 195 phut tren may tinh, chia lam 3 phan: Dinh luong (Toan hoc - 50 cau, 75 phut), Dinh tinh (Ngu van/Ngon ngu - 50 cau, 60 phut), Khoa hoc (Tu nhien hoac Xa hoi - 50 cau, 60 phut)."
+  },
+  {
+    "question": "Ngưỡng điểm sàn nhận hồ sơ xét tuyển bằng điểm thi HSA tại ĐHQGHN thông thường là bao nhiêu?",
+    "expected_answer": "Ngưỡng đảm bảo chất lượng đầu vào thông thường từ 80/150 điểm trở lên; đối với các ngành đào tạo hot như Công nghệ Thông tin, Khoa học Máy tính, Y khoa, điểm sàn dao động từ 100 đến 115 điểm.",
+    "expected_context": "Nguong dam bao chat luong dau vao (diem san) thong thuong tu 80/150 diem tro len; rieng cac nganh hot nhu Cong nghe Thong tin, Khoa hoc May tinh, Y khoa nguong xet tuyen tu 100 den 115 diem."
+  },
+  {
+    "question": "Đại học Quốc gia Hà Nội có công nhận chứng chỉ tiếng Anh VSTEP để xét tuyển đại học không?",
+    "expected_answer": "Có, ĐHQGHN công nhận chứng chỉ VSTEP từ bậc 4 trở lên (tương đương trình độ B2) do các đơn vị được Bộ GD&ĐT cấp phép để xét tuyển kết hợp vào các trường đại học thành viên.",
+    "expected_context": "Dac biet VNU cong nhan chung chi VSTEP bac 4 tro len (tuong duong B2) cua cac don vi duoc Bo GD&DT cap phep de xet tuyen vao tat ca cac truong thanh vien."
+  },
+  {
+    "question": "Một thí sinh được đăng ký dự thi kỳ thi HSA tối đa bao nhiêu lần trong một năm và khoảng cách tối thiểu giữa các đợt thi là gì?",
+    "expected_answer": "Thí sinh được đăng ký tối đa 2 đợt thi HSA trong một năm, và mỗi đợt thi phải cách nhau tối thiểu 28 ngày.",
+    "expected_context": "Thi sinh duoc dang ky toi da 2 dot thi trong nam, moi dot cach nhau toi thieu 28 ngay."
+  },
+  {
+    "question": "Điểm thi Đánh giá tư duy (TSA) có giá trị sử dụng xét tuyển trong bao lâu và được bao nhiêu trường công nhận?",
+    "expected_answer": "Điểm thi TSA có giá trị sử dụng xét tuyển trong vòng 2 năm và được hơn 40 trường đại học khối kỹ thuật, công nghệ, kinh tế sử dụng để xét tuyển.",
+    "expected_context": "Diem thi TSA co gia tri su dung xet tuyen trong 2 nam vao Dai hoc Bach khoa Ha Noi va hon 40 truong dai hoc khoi nganh ky thuat, cong nghe, kinh te."
+  },
+  {
+    "question": "Chiến lược chia nguyện vọng làm 3 nhóm khi đăng ký xét tuyển đại học là gì?",
+    "expected_answer": "Chiến lược 3 nhóm gồm: Nhóm 1 (Mơ ước) điểm chuẩn cao hơn điểm thí sinh 0.5-1.5 điểm (đặt ở NV1-NV3); Nhóm 2 (Vừa sức) điểm chuẩn xấp xỉ điểm thí sinh (đặt ở NV4-NV6); Nhóm 3 (An toàn) điểm chuẩn thấp hơn 2-3 điểm để bảo đảm chắc chắn trúng tuyển.",
+    "expected_context": "Chien luoc chia nguyen vong lam 3 nhom: Nhom 1 (Mo uoc)... Nhom 2 (Vua suc)... Nhom 3 (An toan)..."
+  },
+  {
+    "question": "Những đối tượng sinh viên nào được miễn 100% học phí đại học theo quy định của Nhà nước?",
+    "expected_answer": "Các đối tượng được miễn 100% học phí gồm: sinh viên dân tộc thiểu số rất ít người ở vùng khó khăn; sinh viên mồ côi cả cha lẫn mẹ; sinh viên khuyết tật nặng hoặc đặc biệt nặng; sinh viên là con của liệt sĩ, thương binh theo Pháp lệnh ưu đãi người có công.",
+    "expected_context": "1. Doi tuong duoc mien 100% hoc phi: Sinh vien la nguoi dan toc thieu so rat it nguoi o vung co dieu kien kinh te - xa hoi kho khan... Sinh vien mo coi ca cha lan me... Sinh vien khuyet tat nang... Sinh vien la con cua liet si, thuong binh"
+  },
+  {
+    "question": "Các trường đại học trích tối thiểu bao nhiêu phần trăm từ nguồn thu học phí để lập quỹ học bổng khuyến khích học tập?",
+    "expected_answer": "Mỗi trường đại học trích tối thiểu 8% từ nguồn thu học phí để lập quỹ học bổng khuyến khích học tập khen thưởng sinh viên loại Khá, Giỏi, Xuất sắc.",
+    "expected_context": "Moi truong dai hoc trich toi thieu 8% tu nguon thu hoc phi de lap quy hoc bong khuyen khich hoc tap."
+  }
+]
